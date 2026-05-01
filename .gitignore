@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local settings
+.env
+.env.*
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+!outputs/figures/
+!outputs/figures/.gitkeep
+!outputs/figures/*.png
+
+# Report folder: ignore everything
+report/*
+# Allow only PDF files
+!report/*.pdf
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
